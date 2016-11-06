@@ -1,0 +1,371 @@
+/*beginning of nav style*/
+.nav_container h2, h3, h1  {
+  text-align: center;
+  color:black;
+  font-family: 'Maven Pro', sans-serif;
+
+}
+
+h3{
+  color:black;
+}
+
+
+/* Beginning of Animation Styling */
+.runner {
+  position:relative;
+  margin-left: -50px;
+  left: 50%;
+    /* Set the width and height to the size of one single frame of your spritesheet */
+    width:80px;
+    height:80px;
+    background-image: url("../images/explosion.jpg");
+
+    /* Set the step count to equal than your total spritesheet */
+  -webkit-animation: play 1s steps(8) infinite;
+     -moz-animation: play 1s steps(8) infinite;
+      -ms-animation: play 1s steps(8) infinite;
+       -o-animation: play 1s steps(8) infinite;
+          animation: play 1s steps(8) infinite;
+
+
+}
+
+/*[][] These are your browser display parameters for Chrome, Mozilla, IE, etc. [][]*/
+@-webkit-keyframes play {
+ from { background-position:    0px; }
+ /* This is the max width of your entire spritesheet */
+   to { background-position: -1600px; }
+}
+
+@-moz-keyframes play {
+ from { background-position:    0px; }
+   to { background-position: -1600px; }
+}
+
+@-ms-keyframes play {
+ from { background-position:    0px; }
+   to { background-position: -1600px; }
+}
+
+@-o-keyframes play {
+ from { background-position:    0px; }
+   to { background-position: -1600px; }
+}
+
+@keyframes play {
+ from { background-position:    0px; }
+   to { background-position: -1600px; }
+}
+/* End of Animation Styling */
+
+
+
+
+
+
+/* Beginning of Navigational Links Styling */
+.links {
+
+    font-family: 'Maven Pro', sans-serif;
+}
+.sublinks {
+  text-transform: uppercase;
+  font-size: 14px;
+    font-family: 'Maven Pro', sans-serif;
+}
+/* End of Navigational Links Styling */
+
+/*create a border to see and a bg color*/
+#demo1 {
+
+         margin-left:-125px;
+         position:relative;
+         left:50%}
+#demo1 h1 {border:2px solid red;
+         background-color:red;}
+#demo1 p{border:2px solid red;
+         background-color:lightblue;}
+#demo1 img{border:2px solid red;}
+#demo1 h1:before {content:"Hey there cutey ";}
+
+/* create a size option */
+#demo1 {height:250px; width:250px;}
+#demo1 h1 {border:2px solid red;}
+#demo1 p{border:2px solid red; width:20px;}
+#demo1 img{height:250px; width:250px;}
+
+/* hide overflow*/
+#demo1 {display:block; overflow:hidden;}
+#demo1 h1 {display:block; overflow:hidden;}
+#demo1 p{display:block; overflow:hidden;}
+#demo1 img{display:block; overflow:hidden;}
+
+/* translate  - transform*/
+#demo1 {transform:translateY(120px);}
+#demo1 h1 {transform:translateX(220px)}
+#demo1 p{transform:translate(-15px, 10px);}
+#demo1 img{transform:translate(180px, 120px);}
+
+/* Transitions*/
+#demo1 {transition:all 2s;}
+#demo1 h1 {transition:all 2s;}
+#demo1 p{transition:transform 2s;}
+#demo1 img{transition:all 2s;}
+
+/* on hover do stuff*/
+#demo1:hover {transition:all 2s;}
+#demo1:hover h1 {transform:translate(0,0);}
+#demo1:hover p{width:100%;
+               transform:translate(100px,105px);
+               height:70px;}
+#demo1:hover img{opacity:.3; transform:translate(0,-115px);}
+
+
+
+
+/*article2*/
+#demo2 {
+
+         margin-left:-125px;
+         position:relative;
+         left:50%}
+#demo2 h1 {
+         background-color:white;}
+#demo2 p{
+          position: relative;
+          left: -100px;
+          background-color:black;
+          color: white;}
+
+
+
+/* create a size option */
+#demo2 {height:1000px; width:500px;}
+#demo2 h1 {border:2px solid black; }
+#demo2 img {border:7px solid black;
+            position: relative;}
+#demo2 i {font-size: 70px;
+font-style: normal;}
+#demo2 p{border:2px solid white; width:0px;}
+
+
+/* hide overflow*/
+#demo2 {display:block; overflow:hidden;}
+#demo2 h1 {display:block; overflow:hidden;}
+#demo2 p{display:block; overflow:hidden;}
+
+
+/* translate  - transform*/
+#demo2 {transform:translateY(120px);}
+#demo2 h1 {transform:translateX(800px)}
+#demo2 p{transform:translate(-15px, 10px);}
+
+
+/* Transitions*/
+#demo2 {transition:all 2s;}
+#demo2 h1 {transition:all 4s;
+text-align: center;}
+#demo2 p{transition:transform 2s;
+text-align: center;}
+
+
+/* on hover do stuff*/
+#demo2:hover {transition:all 3s;}
+#demo2:hover h1 {transform:translate(0,0);}
+#demo2:hover p{width:100%;
+               transform:translate(100px,100px);
+               height:40px;}
+
+#demo3:hover img{position: relative;
+                right: -500px;}
+
+
+
+
+                /*pages 1&2*/
+                #demo3 { margin-left:-125px;
+                         position:relative;
+                         left:50%}
+                #demo3 h1 {background-color:white;}
+                #demo3 p{ position: relative;
+                          left: -100px;
+                          background-color:black;
+                          color: white;}
+               #demo3 h3 {color:white;}
+               #demo3 h4{ position: relative;
+                         left: -100px;
+                         background-color:white;
+                         color: black;}
+                             #demo3:hover .fly{
+                               color:white;
+                             }
+                             em{
+                               display:none;
+                             }
+
+
+
+                /* create a size option */
+                #demo3 {height:1000px; width:500px;}
+
+                #demo3 img {border:7px solid black;
+
+                        }
+                #demo3 i {font-size: 70px;
+                font-style: normal;}
+                #demo3 p{border:2px solid white; width:px;}
+                #demo3:hover .fly{transform:translate(180px, 120px);
+                color:white;}
+                #demo3:hover .fly{transform:translate(180px, 120px);
+                color:white;}
+                h5 {
+                  color:white;
+                }
+
+
+
+                /* hide overflow*/
+                #demo3 {display:block; overflow:hidden;}
+                #demo3 h1 {display:block; overflow:hidden;}
+                #demo3 p{display:block; overflow:hidden;}
+                #demo3 h3{display:block; overflow:hidden;}
+                #demo3 h4{display:block; overflow:hidden;}
+
+
+
+
+
+                /* translate  - transform*/
+                #demo3 {transform:translateY(120px);}
+                #demo3 h1 {transform:translateX(-100px);
+                font-size:25px;}
+                #demo3 p{transform:translate( -70px);
+                width:30%;}
+                #demo3 h3  {transform:translate(100px, 200px);
+                width:100%;}
+                #demo3 h4{transform:translate( 225px);
+                width:30%;}
+                #demo3 h5{transform:translate( 225px);
+                width:30%;}
+                #demo3:hover .fly{transform:translate(180px, 120px);}
+
+
+                /* Transitions*/
+                #demo3 {transition:all 2s;}
+                #demo3 h1 {transition:all 4s;
+                text-align: center;}
+                #demo3 p{transition:transform 3s;
+                text-align: center;}
+                #demo3 h3{transition:transform 7s;
+                text-align: center;}
+                #demo3 h4{transition:transform 3s;
+                text-align: center;}
+                #demo1 img{transition:all 8s;}
+                #demo3 .fly {transition:transform 7s;}
+                #demo3 h5{transition:transform 3s;
+                text-align: center;}
+
+
+
+                /* on hover do stuff*/
+                #demo3:hover {transition:all 3s;}
+
+             #demo3:hover .fly {
+                 color:blue;width:100%;
+                  transform:translate(50px,50px);
+                height:-100px;
+                font-size: 55px;}
+
+
+
+            #demo3:hover h4{width:100%;
+                            transform:translate(100px,100px);
+                            height:40px;}
+            #demo3:hover h5 {width:100%;
+                              transform:translate(-300px,-100px);
+                              height:40px;
+                            color:black;}
+
+  }
+
+
+
+
+  /*page 3*/
+
+
+  #demo4 { margin-left:-125px;
+           position:relative;
+           left:50%}
+  #demo4 h1 {background-color:white;}
+  #demo4 p{ position: relative;
+            left: 100px;
+            background-color:black;
+            color: white;}
+ #demo4 h3 {color:white;}
+
+
+
+  /* create a size option */
+  #demo4 {height:2000px; width:500px;}
+  #demo4 h1 { }
+  #demo4 img {border:7px solid black;
+
+          }
+  #demo4 i {font-size: 70px;
+  font-style: normal;}
+  #demo4 p{border:2px solid white; width:px;}
+
+
+  /* hide overflow*/
+  #demo4 {display:block; overflow:hidden;}
+  #demo4 h1 {display:block; overflow:hidden;}
+  #demo4 p{display:block; overflow:hidden;}
+  #demo4 h3{display:block; overflow:hidden;}
+  #demo4 .img2{display:block; overflow:hidden;}
+
+
+
+
+  /* translate  - transform*/
+  #demo4 {transform:translateY(120px);}
+  #demo4 h1 {transform:translateX(300px);}
+  #demo4 p{transform:translate( 35px);
+  width:30%;}
+  #demo4 h3  {transform:translate(100px, 200px);
+  width:100%;}
+  #demo4 .img2{transform:translate(180px, 120px);}
+
+
+  /* Transitions*/
+  #demo4 {transition:all 2s;}
+  #demo4 h1 {transition:all 4s;
+  text-align: center;}
+  #demo4 p{transition:transform 3s;
+  text-align: center;}
+  #demo4 h3{transition:transform 7s;
+  text-align: center;}
+  #demo4 img{transition:all 8s;}
+
+
+  /* on hover do stuff*/
+  #demo4:hover {transition:all 3s;}
+  #demo4:hover h1 {transform:translate(0,0);}
+  #demo4:hover h3 {
+  color:black;width:100%;
+                 transform:translate(100px,100px);
+                 height:-100px;
+               font-size: 55px;
+             position: relative;
+           left: -100px;
+         }
+
+  #demo4:hover p{width:100%;
+                 transform:translate(100px,100px);
+                 height:40px;}
+
+
+
+
+}

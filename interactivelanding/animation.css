@@ -1,0 +1,98 @@
+
+body{
+
+
+/*create a border to see and a bg color*/
+#demo1 {border:2px solid red;
+         background-color:orange;
+         margin-left:-125px;
+         position:relative;
+         left:50%}
+#demo1 h1 {border:2px solid red;
+         background-color:red;}
+#demo1 p{border:2px solid red;
+         background-color:lightblue;}
+#demo1 img{border:2px solid red;}
+#demo1 h1:before {content:"Hey there cutey ";}
+
+/* create a size option */
+#demo1 {height:250px; width:250px;}
+#demo1 h1 {border:2px solid red;}
+#demo1 p{border:2px solid red; width:20px;}
+#demo1 img{height:250px; width:250px;}
+
+/* hide overflow*/
+#demo1 {display:block; overflow:hidden;}
+#demo1 h1 {display:block; overflow:hidden;}
+#demo1 p{display:block; overflow:hidden;}
+#demo1 img{display:block; overflow:hidden;}
+
+/* translate  - transform*/
+#demo1 {transform:translateY(120px);}
+#demo1 h1 {transform:translateX(220px)}
+#demo1 p{transform:translate(-15px, 10px);}
+#demo1 img{transform:translate(180px, 120px);}
+
+/* Transitions*/
+#demo1 {transition:all 2s;}
+#demo1 h1 {transition:all 2s;}
+#demo1 p{transition:transform 2s;}
+#demo1 img{transition:all 2s;}
+
+/* on hover do stuff*/
+#demo1:hover {transition:all 2s;}
+#demo1:hover h1 {transform:translate(0,0);}
+#demo1:hover p{width:100%;
+               transform:translate(-1px,105px);
+               height:70px;}
+#demo1:hover img{opacity:.3; transform:translate(0,-115px);}
+
+
+
+
+/*article2*/
+#demo2 {border:2px solid red;
+         background-color:orange;
+         margin-left:-125px;
+         position:relative;
+         left:50%}
+#demo2 h3 {border:2px solid red;
+         background-color:white;}
+#demo2 p{border:2px solid red;
+         background-color:lightblue;}
+#demo2 img{border:2px solid red;}
+
+
+/* create a size option */
+#demo2 {height:250px; width:250px;}
+#demo2 h3 {border:2px solid red;}
+#demo2 p{border:2px solid red; width:20px;}
+#demo2 img{height:250px; width:250px;}
+
+/* hide overflow*/
+#demo2 {display:block; overflow:hidden;}
+#demo2 h3 {display:block; overflow:hidden;}
+#demo2 p{display:block; overflow:hidden;}
+#demo2 img{display:block; overflow:hidden;}
+
+/* translate  - transform*/
+#demo2 {transform:translateY(120px);}
+#demo2 h3 {transform:translateX(220px)}
+#demo2 p{transform:translate(-15px, 10px);}
+#demo2 img{transform:translate(180px, 120px);}
+
+/* Transitions*/
+#demo2 {transition:all 2s;}
+#demo2 h3 {transition:all 2s;}
+#demo2 p{transition:transform 2s;}
+#demo2 img{transition:all 2s;}
+
+/* on hover do stuff*/
+#demo2:hover {transition:all 2s;}
+#demo2:hover h3 {transform:translate(0,0);}
+#demo2:hover p{width:100%;
+               transform:translate(-1px,105px);
+               height:70px;}
+#demo2:hover img{opacity:.3; transform:translate(0,-115px);}
+
+}
