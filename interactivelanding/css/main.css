@@ -10,6 +10,16 @@ h3{
   color:black;
 }
 
+#image{
+  height:600px;
+  width:500;
+  background-image:url("../images/sunrise.gif ")
+}
+
+#image:hover{
+  background-image: url("../images/j.jpg")
+}
+
 
 /* Beginning of Animation Styling */
 .runner {
@@ -61,7 +71,9 @@ h3{
 
 
 
-
+#demo3 h1.hidefly {
+  color:white;
+}
 
 
 /* Beginning of Navigational Links Styling */
@@ -248,7 +260,7 @@ text-align: center;}
 
                 /* translate  - transform*/
                 #demo3 {transform:translateY(120px);}
-                #demo3 h1 {transform:translateX(300px)}
+                #demo3 h1 {transform:translateX(303px)}
                 #demo3 p {transform:translatex(-250px);}
                 #demo3 b {transform:translate(-200px, 100px);}
                 #demo3 h3{transform:translate(-180px, 120px);}
@@ -271,14 +283,15 @@ text-align: center;}
                 text-align: center;}
                 #demo3 img{transition:all 8s;}
                 #demo3 .fly {transition:transform 7s;}
-                #demo3 h5{transition:transform 3s;
+                #demo3 h5{transition:transform 8s;
                 text-align: center;}
 
 
 
                 /* on hover do stuff*/
                 #demo3:hover {transition:all 3s;}
-                #demo3:hover h1 {transform:translate(0,0);}
+                #demo3:hover h1 {transform:translate(0,0);
+                color:black}
 
                 #demo3:hover .fly {
                  color:blue;width:100%;
@@ -286,7 +299,7 @@ text-align: center;}
                 height:-100px;
                 font-size: 55px;}
 
-                #demo1:hover img{opacity:.3; transform:translate(0,-115px);}
+                #demo3:hover img{transition:transform 7s;}
 
 
             #demo3:hover h4{width:100%;
@@ -303,11 +316,10 @@ text-align: center;}
                               transform:translate(-300px,-100px);
                               height:40px;
                             color:black;}
-                            #demo3:hover p{width:100%;
+              #demo3:hover p{width:100%;
                                            transform:translate(-10px,105px);
                                            height:70px;}
-                                           #demo3 h1.hidethis{color:black;
-                                           }
+
 
 
 
